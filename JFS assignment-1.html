@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Description" content="Register you details">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="script.js"></script>
+<link rel="stylesheet" href="css.css">
+<title>FJS assignment-1</title>
+</head>
+<body onload="filldd()">
+	<h2> <center> Employee Registration Form </center> </h2>
+<div id="logon-box">
+<form>
+<center>
+<input type="text" id="Name" required="" placeholder="Employee Name"><br>
+<input type="password" id="Password" required="" placeholder="Enter a Password"><br>
+<input type="password" id="CnfPassword" required="" placeholder="Reenter the Password"><br>
+<input type="date" min="02/08/2020" max="" name="" required=""><br><br>
+</form>
+<select id="type" onchange="fillData()" required="">
+<option>select type</option>
+</select>
+<select id="dd" required="">
+<option>select</option>
+</select>
+<br><br>
+<input type="button" value="Submit" onclick="return CheckAll()"></input>
+</div>
+</center>
+</body>
+</html>
